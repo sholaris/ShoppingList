@@ -1,3 +1,17 @@
+# Server
 /node_modules
 package-lock.json
 .env
+
+# Client
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
