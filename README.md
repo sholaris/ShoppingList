@@ -1,5 +1,5 @@
 # ShoppingList
-Fullstack Shopping List application build with MongoDB, Express, React and Node.js.
+> Fullstack Shopping List application build with MongoDB, Express, React and Node.js.
 
 ## Quick Start
 Add your MONGO_URI to the default.json file in config directory. Make sure you set an env var for that and the jwtSecret on deployment.
