@@ -5,7 +5,7 @@
 Add your MONGO_URI to the default.json file in config directory. Make sure you set an env var for that and the jwtSecret on deployment.
 
 ```
-   # Install dependencies for server
+# Install dependencies for server
 npm install
 
 # Install dependencies for client
