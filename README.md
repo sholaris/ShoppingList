@@ -2,7 +2,7 @@
 > Fullstack Shopping List application build with MongoDB, Express, React and Node.js.
 
 ## Quick Start
-Add your MONGO_URI to the default.json file in config directory. Make sure you set an env var for that and the jwtSecret on deployment.
+### Installation
 
 ```bash
 # Install dependencies for server
@@ -21,4 +21,15 @@ npm run server
 npm run client
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
+```
+
+### Configuration
+
+Add your own MONGO_URI and JWTSecret in the project config file.
+
+```json
+{
+    "mongoURI": "YOUR_MONGO_URI",
+    "jwtSecret": "YOUR_SECRET"
+}
 ```
